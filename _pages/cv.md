@@ -11,7 +11,6 @@ redirect_from:
 
 Education
 ======
-#* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 * M.Sc. in Biology, Albert Ludwig University of Freiburg, 2024
 * B.Sc. in Biology, Georg August University of Göttingen, 2021
 
