@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Niklas Binder"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "PhD student in Spatial Omics"
   location         : "Freiburg, Germany"
-  employer         : "University of Freiburg"
+  employer         : "University Hospital Tübingen"
   uri              : # URL
   email            : "email@email" 
 
