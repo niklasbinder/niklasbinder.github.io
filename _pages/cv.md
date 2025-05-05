@@ -16,7 +16,7 @@ Education
 
 Work experience
 ======
-* May 2023: Research Assistant
+* May 2023 - April 2025: Research Assistant @ Instute of Neuropathology, Freiburg
   * Single-cell and spatial omics
  
 
