@@ -16,8 +16,10 @@ Education
 
 Work experience
 ======
-* May 2023 - April 2025: Research Assistant @ Instute of Neuropathology, Freiburg
-  * Single-cell and spatial omics
+* May 2023 - April 2025: Research Assistant / Data Analyst @ Instute of Neuropathology, Freiburg
+  * Single-cell RNA seq & CITE-seq and Multiome (RNA + ATAC)
+  * Multiplex Proteomics (CODEX)
+  * Spatial Transcriptomics (Visium HD)
  
 
   
