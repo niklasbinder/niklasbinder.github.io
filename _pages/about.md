@@ -17,5 +17,5 @@ My work aims to uncover the complex interactions between cancer cells and their 
 
 ## Background
 
-Prior to joining the Schürch Lab, I worked in the group of Prof. Marco Prinz at the Institute of Neuropathology in Freiburg, where I investigated tumor-associated macrophages within the microenvironment of various brain tumors. This research combined single-cell and spatial omics techniques to characterize immune cell populations and their roles in brain cancer progression.
+Prior to joining the Schürch Lab, I worked in the group of Prof. Marco Prinz at the Institute of Neuropathology in Freiburg, where I investigated tumor-associated macrophages within the microenvironment of various brain tumors, such as gliomas and meningiomas. This research combined single-cell and spatial omics techniques to characterize immune cell populations and their roles in brain cancer progression.
 
