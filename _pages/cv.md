@@ -16,6 +16,8 @@ Education
 
 Work experience
 ======
+* May 2025 - now: Doctoral Researcher / PhD Student @ Institute of Pathology, Tübingen 
+
 * May 2023 - April 2025: Research Assistant / Data Analyst @ Instute of Neuropathology, Freiburg
   * Single-cell RNA seq & CITE-seq and Multiome (RNA + ATAC)
   * Multiplex Proteomics (CODEX)
