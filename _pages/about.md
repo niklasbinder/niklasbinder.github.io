@@ -13,7 +13,7 @@ Hi, I'm Niklas Binder, a PhD student at University Hospital Tübingen in the [Sc
 
 ## Research Interests
 
-My work aims to uncover the complex interactions between cancer cells and their surrounding environment, with a particular focus on how spatial organization influences tumor progression and treatment response. By employing cutting-edge spatial omics technologies, I'm working to develop a deeper understanding of tumor heterogeneity and its clinical implications.
+My work aims to uncover the complex interactions between cancer cells and their surrounding environment, with a particular focus on how spatial organization influences tumor progression and treatment response. By employing cutting-edge spatial omics technologies, I'm working to develop a deeper understanding of tumor heterogeneity and its clinical implications. Moreover, I am interested in developing new computational approach to investigate the tumor microenvironment. 
 
 ## Background
 
