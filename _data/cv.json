@@ -1,61 +1,73 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Niklas Binder",
+    "email": "niklas.binder@proton.me",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://niklasbinder.github.io",
+    "summary": "PhD student / doctoral researcher in the Schürch Lab at University Hospital Tübingen, investigating the tumor microenvironment of brain tumors and other malignancies using spatial omics.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Tübingen",
+      "countryCode": "DE",
+      "region": "Baden-Württemberg"
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "username": "Niklas Binder",
+        "url": "https://scholar.google.de/citations?user=zpNGrz8AAAAJ&hl=en"
       },
       {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "network": "ResearchGate",
+        "username": "Niklas-Binder",
+        "url": "https://www.researchgate.net/profile/Niklas-Binder"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "niklasbinder",
+        "url": "https://github.com/niklasbinder"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Institute of Pathology, University Hospital Tübingen (Schürch Lab)",
+      "position": "Doctoral Researcher / PhD Student",
+      "startDate": "2025-05-01",
+      "endDate": "",
+      "summary": "Investigating the tumor microenvironment of brain tumors and other malignancies using spatial omics approaches.",
+      "highlights": []
+    },
+    {
+      "company": "Institute of Neuropathology, University of Freiburg (Prinz Lab)",
+      "position": "Research Assistant / Data Analyst",
+      "startDate": "2023-05-01",
+      "endDate": "2025-04-30",
+      "summary": "Studied tumor-associated macrophages in the microenvironment of brain tumors using single-cell and spatial omics.",
+      "highlights": [
+        "Single-cell RNA-seq, CITE-seq, and Multiome (RNA + ATAC)",
+        "Multiplexed proteomics (CODEX)",
+        "Spatial transcriptomics (Visium HD)"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
+      "institution": "Albert Ludwig University of Freiburg",
+      "area": "Biology (Major: Neuroscience)",
+      "studyType": "M.Sc.",
       "startDate": "",
-      "endDate": "2018",
+      "endDate": "2024",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
+      "institution": "Georg August University of Göttingen",
+      "area": "Biology",
+      "studyType": "B.Sc.",
       "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "endDate": "2021",
       "gpa": null,
       "courses": []
     }
@@ -66,87 +78,28 @@
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Primer on machine learning applications in brain immunology",
+      "publisher": "Frontiers in Bioinformatics",
+      "releaseDate": "2025-04-17",
+      "website": "https://doi.org/10.3389/fbinf.2025.1554010",
+      "summary": "A mini-review of machine learning applications in brain immunology, spanning conventional methods, deep learning, and emerging foundation models for single-cell and spatial data."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "CAR T cells, CAR NK cells, and CAR macrophages exhibit distinct traits in glioma models but are similarly enhanced when combined with cytokines",
+      "publisher": "Cell Reports Medicine",
+      "releaseDate": "2025-02-01",
+      "website": "https://doi.org/10.1016/j.xcrm.2025.101931",
+      "summary": "A systematic comparison of CAR T cells, CAR NK cells, and CAR macrophages in glioma models, showing distinct traits that are similarly enhanced by cytokine combination."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "EXTH-80. A systemic comparison of CAR T cells, CAR NK cells and CAR macrophages for glioma treatment",
+      "publisher": "Neuro-Oncology (Conference Abstract)",
+      "releaseDate": "2023-11-01",
+      "website": "https://doi.org/10.1093/neuonc/noad179.0933",
+      "summary": "Conference abstract comparing CAR-based immune cell therapies for glioma treatment."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }
