@@ -42,4 +42,6 @@ $sidebar-screen-min-width   : 1024px;
     --global-text-color                 : #{$dark-gray};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$lighter-gray};
+    --page-bg-tint                      : #f4f6f9; // soft slate behind content
+    --card-bg                           : #ffffff; // publication cards
 }

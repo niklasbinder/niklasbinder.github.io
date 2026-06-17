@@ -8,7 +8,7 @@
 /* --- Global blue-grey wash ---------------------------------------------- */
 
 body {
-  background-color: #f4f6f9; /* soft slate tint behind white content */
+  background-color: var(--page-bg-tint); /* theme-aware tint behind content */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: -0.003em;
@@ -92,7 +92,7 @@ a {
     border: 1px solid var(--global-border-color);
     border-left: 4px solid var(--global-link-color);
     border-radius: 8px;
-    background: #ffffff;
+    background: var(--card-bg);
     box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05);
     transition: box-shadow 0.2s ease, transform 0.2s ease;
   }

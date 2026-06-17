@@ -49,4 +49,6 @@ html[data-theme="dark"] {
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$background-lighter};
+    --page-bg-tint                      : #3d3d3d; // slightly darker than cards
+    --card-bg                           : #{$background}; // cards lift off the page
 }
