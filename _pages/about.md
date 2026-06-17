@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-# About Me
+<p class="lead-intro">Mapping the spatial biology of the tumor microenvironment — with a focus on brain tumors.</p>
 
-Hi, I'm Niklas Binder, a PhD student at University Hospital Tübingen in the [Schürch Lab](https://www.schurchlab.com/). My research focuses on investigating the tumor microenvironment of various malignancies, especially brain tumors, using spatial omics approaches.
+I'm Niklas Binder, a PhD student at University Hospital Tübingen in the [Schürch Lab](https://www.schurchlab.com/). My research investigates the tumor microenvironment of various malignancies, especially brain tumors, using spatial omics approaches.
 
 ## Research Interests
 
