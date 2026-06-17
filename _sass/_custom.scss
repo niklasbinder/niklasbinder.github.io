@@ -1,15 +1,20 @@
 /* ==========================================================================
-   CUSTOM OVERRIDES — warm/editorial polish
-   Serif (Newsreader) headings + sans (Inter) body, indigo accent.
+   CUSTOM OVERRIDES — editorial polish, blue-grey palette
+   Serif (Newsreader) headings + sans (Inter) body, steel-blue accent.
+   Palette is monochrome blue-grey for high contrast and color-blind safety
+   (no red/green cues; links differ from text in both hue and brightness).
    ========================================================================== */
 
-/* --- Typography refinements --------------------------------------------- */
+/* --- Global blue-grey wash ---------------------------------------------- */
 
 body {
+  background-color: #f4f6f9; /* soft slate tint behind white content */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: -0.003em;
 }
+
+/* --- Typography refinements --------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6,
 .page__title,
@@ -20,13 +25,14 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.2;
 }
 
-/* Slightly more air under headings for an editorial feel */
 .page__content {
   h2 { margin-top: 1.8em; }
   h3 { margin-top: 1.4em; }
+
+  /* comfortable reading measure + rhythm */
+  p, li { line-height: 1.65; }
 }
 
-/* The site name / masthead title in the serif face */
 .masthead__title,
 .greedy-nav .site-title {
   font-family: $header-font-family;
@@ -54,16 +60,23 @@ a {
   transition: color 0.18s ease-in-out;
 }
 
-/* --- Publication cards --------------------------------------------------- */
+/* --- Publications page --------------------------------------------------- */
+
+/* "find my articles on Google Scholar" note */
+.archive .wordwrap {
+  margin-bottom: 1.5em;
+  color: var(--global-text-color);
+}
 
 .publication-list {
   hr {
-    display: none; /* drop the default rule under category headings */
+    display: none; /* drop the heavy rule under category headings */
   }
 
+  /* Category section headings */
   h2 {
-    margin-top: 1.6em;
-    margin-bottom: 0.6em;
+    margin-top: 1.8em;
+    margin-bottom: 0.7em;
     padding-bottom: 0.3em;
     border-bottom: 2px solid var(--global-link-color);
     display: inline-block;
@@ -73,37 +86,52 @@ a {
     margin-bottom: 1.1em;
   }
 
+  /* Each publication = a clean white card */
   .archive__item {
-    padding: 1.25em 1.5em;
+    padding: 1.4em 1.6em;
     border: 1px solid var(--global-border-color);
-    border-radius: 10px;
-    background: var(--global-bg-color);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-    transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+    border-left: 4px solid var(--global-link-color);
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
   }
 
   .archive__item:hover {
     transform: translateY(-2px);
-    border-color: var(--global-link-color);
-    box-shadow: 0 8px 24px rgba(79, 70, 229, 0.12);
+    box-shadow: 0 8px 22px rgba(15, 23, 42, 0.12);
   }
 
   .archive__item-title {
     margin-top: 0;
-    margin-bottom: 0.35em;
+    margin-bottom: 0.3em;
     font-size: $type-size-4;
+    line-height: 1.3;
   }
 
-  /* "Published in <venue>, <year>" line */
-  .archive__item > p:not(.archive__item-excerpt) {
-    font-size: $type-size-6;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--global-text-color-light);
-    margin: 0.2em 0 0.5em;
+  /* "Published in <venue>, <year>" — readable subtitle, not tiny caps */
+  .archive__item > p:first-of-type {
+    margin: 0.1em 0 0.6em;
+    font-size: $type-size-5;
+    font-weight: 600;
+    color: var(--global-link-color);
   }
 
+  /* Abstract / excerpt */
   .archive__item-excerpt {
-    margin-bottom: 0.4em;
+    margin: 0.4em 0 0.7em;
+    font-size: $type-size-5;
+    line-height: 1.65;
+    color: var(--global-text-color);
+  }
+
+  /* Recommended-citation block, set apart and legible */
+  .archive__item > p:last-of-type {
+    margin: 0;
+    padding-top: 0.7em;
+    border-top: 1px solid var(--global-border-color);
+    font-size: 0.9em;
+    line-height: 1.55;
+    color: var(--global-text-color);
   }
 }
